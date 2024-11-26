@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: rgba(212, 134, 134, 0.37);
+}
+
+nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 8px 12px;
+}
+
+nav ul li:hover {
+  background-color: grey;
+}
+/* ------------------------------ */
+
+div.product-container {
+  width: 800px;
+  margin: auto;
+  /* height: 800px; */
+  background-color: aliceblue;
+  padding: 30px 30px;
+}
+
+div.row-i {
+  display: flex;
+}
+
+div.row-i > div {
+  width: 50%;
+  padding: 20px 20px;
+}
+
+div.promo-code {
+  /* margin-left: 20px; */
+  background-color: rgba(82, 255, 47, 0.692);
+  padding: 10px 10px;
+  width: 95%;
+  border: 2px solid green;
+  margin: 20px auto;
+}
+
+div.row-i img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+div.row-i h1 {
+  margin: 20px 0px;
+}
+
+div.row-i div.product-info p {
+  margin: 20px 0;
+}
+
+div.row-i ul {
+  margin-left: 20px;
+}
+/* ---------------------------------------- */
+
+div.row-ii {
+  margin: 30px 0;
+}
+
+div.row-ii h2 {
+  margin: 20px 0;
+}
+
+div.row-ii div.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+div.row-ii div.container div.cards {
+  width: 22%;
+  height: 200px;
+  background-color: bisque;
+  padding: 12px 14px;
+  position: relative;
+}
+
+div.row-ii div.container div.cards img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+div.row-ii div.container div.cards p {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.726);
+  width: 134px;
+  color: white;
+  padding: 12px 12px;
+  position: absolute;
+  bottom: 20px;
+}
+
+div.row-ii div.container div.cards:hover p {
+  display: block;
+}
+
+/* ------------------------------------ */
+
+footer div {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* -------------------------------------------- */
+
+main {
+  width: 800px;
+  /* margin-top: 40px; */
+  background-color: aliceblue;
+  padding: 50px 30px;
+  margin: auto;
+}
+
+main p {
+  margin: 20px 0;
+}
+
+div.img-container img {
+  width: 100%;
+}
+
+div.img-container {
+  position: relative;
+}
+
+div.img-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  padding: 0 12px;
+  display: none;
+}
+
+div.img-container:hover div.img-hover {
+  display: block;
+}
+/* ---------------------------------------------------- */
+
+div.team-members {
+  margin: 30px 0;
+}
+
+div.team-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+div.guy {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+}
+
+div.guy img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+}
+
+h4 {
+  margin-top: 12px;
+}
